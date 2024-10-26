@@ -9,5 +9,5 @@ app.use('/api/users', userController);
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
-    console.log(`Este programa esta corriendo en el puerto: ${port}`);
+    console.log(`Este programa esta corriendo en: http://localhost:${port}`);
 })
